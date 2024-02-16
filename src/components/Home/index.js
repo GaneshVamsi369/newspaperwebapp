@@ -16,7 +16,15 @@ class Home extends Component{
 
     getlist=async ()=>{
         this.setState({statuss:'LOAD'})
-        const response=await fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=07deafef12c44217baa04953445a1156')
+        const url='https://api.npoint.io/d0e7242c16c74e0965ee'
+        const option={
+            method:'GET',
+            headers: {
+                accept: 'application/json',
+              },
+        }
+        const response=await fetch(url,option)
+        console.log('1')
         if(response.ok){
             const data=await response.json()
             const newdata=data.articles.map(each=>(

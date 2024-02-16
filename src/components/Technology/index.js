@@ -16,7 +16,7 @@ class Technology extends Component{
 
     getlist=async ()=>{
         this.setState({statuss:'LOAD'})
-        const response=await fetch('https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=07deafef12c44217baa04953445a1156')
+        const response=await fetch('https://api.npoint.io/f6ecf8cce2024c95677e')
         if(response.ok){
             const data=await response.json()
             const newdata=data.articles.map(each=>(

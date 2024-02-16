@@ -16,7 +16,7 @@ class Science extends Component{
 
     getlist=async ()=>{
         this.setState({statuss:'LOAD'})
-        const response=await fetch('https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=07deafef12c44217baa04953445a1156')
+        const response=await fetch('https://api.npoint.io/59b5932957a838e64013')
         if(response.ok){
             const data=await response.json()
             const newdata=data.articles.map(each=>(

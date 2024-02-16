@@ -27,7 +27,6 @@ class Header extends Component {
     const scienceli = loca === '/science' ? `${'active'} headerlistli` : 'headerlistli'
     const sportsli = loca === '/sports' ? `${'active'} headerlistli` : 'headerlistli'
     const technologyli = loca === '/technology' ? `${'active'} headerlistli` : 'headerlistli'
-    console.log(homeli)
 
     return (
       <ThemeContext.Consumer>

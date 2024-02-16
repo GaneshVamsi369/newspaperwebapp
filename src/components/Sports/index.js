@@ -16,7 +16,7 @@ class Sports extends Component{
 
     getlist=async ()=>{
         this.setState({statuss:'LOAD'})
-        const response=await fetch('https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=07deafef12c44217baa04953445a1156')
+        const response=await fetch('https://api.npoint.io/aab6bd396f5fa431f793')
         if(response.ok){
             const data=await response.json()
             const newdata=data.articles.map(each=>(

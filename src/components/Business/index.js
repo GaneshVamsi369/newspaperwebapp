@@ -17,7 +17,7 @@ class Business extends Component{
 
     getlist=async ()=>{
         this.setState({statuss:'LOAD'})
-        const response=await fetch('https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=07deafef12c44217baa04953445a1156')
+        const response=await fetch('https://api.npoint.io/c252f78532a7d1929422')
         if(response.ok){
             const data=await response.json()
             const newdata=data.articles.map(each=>(
