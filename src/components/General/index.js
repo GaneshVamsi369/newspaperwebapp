@@ -5,7 +5,6 @@ import Header from '../Header'
 import Failcall from '../Failcall'
 import News from '../News'
 import ThemeContext from '../../context/ThemeContext'
-import './index.css'
 
 class General extends Component{
     state={list:[],statuss:''}

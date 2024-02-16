@@ -1,10 +1,16 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project let's build a **NewsPaper Web App** by applying the concepts we have learned till now. This project allows me to practice the concepts and techniques learned till React Course and apply them in a concrete project.
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you have to run after clone from github:
+
+### `cd newspaperwebapp`
+
+To change directory to newspaperwebapp
+
+### `npm install`
+
+To install respective dependencies
 
 ### `npm start`
 
@@ -14,57 +20,164 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Set Up Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
 
-### `npm run build`
+<summary>Click to view</summary>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Download dependencies by running `npm install`
+- Start up the app using `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Completion Instructions
 
-### `npm run eject`
+<details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<summary>Functionality to be added</summary>
+<br/>
+The app must have the following functionalities
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Home Route**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    - An HTTP GET request should be made to **Top Headlines** 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    - **_Loader_** should be displayed while fetching the data
+    - After the data is fetched successfully, display the list of top rated books received from the response
+    - If the HTTP GET request made is unsuccessful, then the failure view screens should be displayed
+    - When the **Try Again** button is clicked, an HTTP GET request should be made to **Top Headlines**
 
-## Learn More
+- **Header**  
+    
+  - When the **logo** in the header is clicked, then the page should be navigated to the Home Route
+  - When the **Home** link in the header is clicked, then the page should be navigated to the Home Route
+  - When the **Business** link in the header is clicked, then the page should be navigated to the Business Route
+  - When the **Entertainment** button in the header is clicked, then the page should be navigated to the Entertainment Route
+  - When the **General** button in the header is clicked, then the page should be navigated to the General Route
+  - When the **Health** button in the header is clicked, then the page should be navigated to the Health Route
+  - When the **Science** button in the header is clicked, then the page should be navigated to the Science Route
+  - When the **Sports** button in the header is clicked, then the page should be navigated to the Sports Route
+  - When the **Technology** button in the header is clicked, then the page should be navigated to the Technology Route
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Business Route**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    - An HTTP GET request should be made to **Business** 
 
-### Code Splitting
+    - **_Loader_** should be displayed while fetching the data
+    - After the data is fetched successfully, display the list of top rated books received from the response
+    - If the HTTP GET request made is unsuccessful, then the failure view screens should be displayed
+    - When the **Try Again** button is clicked, an HTTP GET request should be made to **Business**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Entertainment Route**
 
-### Analyzing the Bundle Size
+    - An HTTP GET request should be made to **Entertainment** 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    - **_Loader_** should be displayed while fetching the data
+    - After the data is fetched successfully, display the list of top rated books received from the response
+    - If the HTTP GET request made is unsuccessful, then the failure view screens should be displayed
+    - When the **Try Again** button is clicked, an HTTP GET request should be made to **Entertainment**
 
-### Making a Progressive Web App
+- **General Route**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  - An HTTP GET request should be made to **General** 
 
-### Advanced Configuration
+  - **_Loader_** should be displayed while fetching the data
+  - After the data is fetched successfully, display the list of top rated books received from the response
+  - If the HTTP GET request made is unsuccessful, then the failure view screens should be displayed
+  - When the **Try Again** button is clicked, an HTTP GET request should be made to **General**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Health Route**
 
-### Deployment
+  - An HTTP GET request should be made to **Health** 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  - **_Loader_** should be displayed while fetching the data
+  - After the data is fetched successfully, display the list of top rated books received from the response
+  - If the HTTP GET request made is unsuccessful, then the failure view screens should be displayed
+  - When the **Try Again** button is clicked, an HTTP GET request should be made to **Health**
 
-### `npm run build` fails to minify
+- **Science Route**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  - An HTTP GET request should be made to **Science** 
+
+  - **_Loader_** should be displayed while fetching the data
+  - After the data is fetched successfully, display the list of top rated books received from the response
+  - If the HTTP GET request made is unsuccessful, then the failure view screens should be displayed
+  - When the **Try Again** button is clicked, an HTTP GET request should be made to **Science**
+
+- **Sports Route**
+
+  - An HTTP GET request should be made to **Sports** 
+
+  - **_Loader_** should be displayed while fetching the data
+  - After the data is fetched successfully, display the list of top rated books received from the response
+  - If the HTTP GET request made is unsuccessful, then the failure view screens should be displayed
+  - When the **Try Again** button is clicked, an HTTP GET request should be made to **Sports**
+
+- **Technology Route**
+
+  - An HTTP GET request should be made to **Technology** 
+
+  - **_Loader_** should be displayed while fetching the data
+  - After the data is fetched successfully, display the list of top rated books received from the response
+  - If the HTTP GET request made is unsuccessful, then the failure view screens should be displayed
+  - When the **Try Again** button is clicked, an HTTP GET request should be made to **Technology**
+
+</details>
+
+### Resources
+
+<details>
+<summary>Data fetch URLs</summary>
+
+
+- **Top Headlines API**
+
+    #### URL: `https://api.npoint.io/d0e7242c16c74e0965ee`
+
+    #### Method: `GET`
+
+- **Business API**
+
+    #### URL: `https://api.npoint.io/c252f78532a7d1929422`
+
+    #### Method: `GET`
+
+- **Entertainment API**
+
+    #### URL: `https://api.npoint.io/0c73af7bd958f0bfa1d4`
+
+    #### Method: `GET`
+
+- **General API**
+
+    #### URL: `https://api.npoint.io/acca96cf590df2574858`
+
+    #### Method: `GET`
+
+- **Health API**
+
+    #### URL: `https://api.npoint.io/3b48dbd0a1bd82be029e`
+
+    #### Method: `GET`
+
+- **Science API**
+
+    #### URL: `https://api.npoint.io/59b5932957a838e64013`
+
+    #### Method: `GET`
+
+- **Sports API**
+
+    #### URL: `https://api.npoint.io/aab6bd396f5fa431f793`
+
+    #### Method: `GET`
+
+- **Technology API**
+
+    #### URL: `https://api.npoint.io/f6ecf8cce2024c95677e`
+
+    #### Method: `GET`
+
+
+</details>

@@ -5,7 +5,6 @@ import Header from '../Header'
 import Failcall from '../Failcall'
 import News from '../News'
 import ThemeContext from '../../context/ThemeContext'
-import './index.css'
 
 class Health extends Component{
     state={list:[],statuss:''}

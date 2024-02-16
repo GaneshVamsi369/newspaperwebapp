@@ -50,7 +50,7 @@
     }
     .active {
       color: orangered !important;
-      border-bottom: 1px solid orangered;
+      border-bottom: 1px solid orangered !important;
       width: fit-content;
     }
     .shortnav {
