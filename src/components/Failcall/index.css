@@ -1,0 +1,16 @@
+  .failureview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 100%;
+  }
+  .failureview img {
+    height: 170px;
+    width: 350px;
+  }
+  .fail {
+    font-size: 14px;
+    color: #475569;
+  }

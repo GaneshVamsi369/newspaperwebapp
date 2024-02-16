@@ -1,0 +1,40 @@
+.dark{
+    background-color: #333333;
+    min-height: 100vh;
+}
+.light{
+    background-color: #bdb9b9;
+    min-height: 100vh;
+}
+.maintitle{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.retrybtn {
+    border: 0px;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 3px 8px;
+    height: 33px;
+    color: #fff;
+    background-color: #0284c7;
+}
+.loader-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.successlist{
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 10px 40px;
+}
+.title{
+    margin: 0px 50px;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 600px;
+    font-size: 30px;
+}
