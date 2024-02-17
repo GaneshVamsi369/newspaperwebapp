@@ -5,6 +5,7 @@ import Header from '../Header'
 import Failcall from '../Failcall'
 import News from '../News'
 import ThemeContext from '../../context/ThemeContext'
+import Footer from '../Footer'
 
 
 class Business extends Component{
@@ -86,6 +87,7 @@ class Business extends Component{
                             <h1 className={`${text} maintitle`}>THE BHARAT NEWS</h1>
                             <h1 className={`${text}  ${bgg} ${shadow} title`}>Business</h1>
                             <div>{this.renderingnews()}</div>
+                            <Footer />
                         </div>
                     )
                 }}

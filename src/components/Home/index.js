@@ -5,6 +5,7 @@ import Header from '../Header'
 import Failcall from '../Failcall'
 import News from '../News'
 import ThemeContext from '../../context/ThemeContext'
+import Footer from '../Footer'
 import './index.css'
 
 class Home extends Component{
@@ -94,6 +95,7 @@ class Home extends Component{
                             <h1 className={`${text} maintitle`}>THE BHARAT NEWS</h1>
                             <h1 className={`${text} ${bgg} ${shadow} title`}>Top Headlines</h1>
                             <div>{this.renderingnews()}</div>
+                            <Footer />
                         </div>
                     )
                 }}

@@ -1,0 +1,30 @@
+.foot{
+    padding: 30px 140px;
+    display: flex;
+    flex-direction: column;
+}
+.footdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.cont{
+    width: 30%;
+}
+.footerfoot{
+    display: flex;
+    justify-content: space-between;
+}
+.foothead{
+    color: orangered;
+}
+@media screen and (max-width: 992px){
+    .foot{
+        padding: 20px;
+    }
+    .footdiv{
+        flex-direction: column;
+    }
+    .cont{
+        width: 100%;
+    }
+}

@@ -5,6 +5,7 @@ import Header from '../Header'
 import Failcall from '../Failcall'
 import News from '../News'
 import ThemeContext from '../../context/ThemeContext'
+import Footer from '../Footer'
 
 class Health extends Component{
     state={list:[],statuss:''}
@@ -85,6 +86,7 @@ class Health extends Component{
                             <h1 className={`${text} maintitle`}>THE BHARAT NEWS</h1>
                             <h1 className={`${text} ${bgg} ${shadow} title`}>Health</h1>
                             <div>{this.renderingnews()}</div>
+                            <Footer />
                         </div>
                     )
                 }}

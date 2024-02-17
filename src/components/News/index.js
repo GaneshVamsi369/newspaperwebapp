@@ -17,7 +17,7 @@ const News= props =>{
                             <div className='shortimg'>
                                 <img className='itemimg' src={imgageurl} alt={title} />
                             </div>
-                            <a href={url}>
+                            <a href={url} target='_blank' rel="noopener noreferrer">
                                 <div className={`newstext ${text}`}>
                                     <h1 className='head'>{title}</h1>
                                     <p>{description}</p>
